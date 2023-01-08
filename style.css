@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background: url(images/merkez.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.navbar{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(10, 9, 15, 0.5);
+  z-index: 2;
+}
+.navbar .logo{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 0px;
+  font-size: 25px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar ul{
+  float: right;
+  margin-right: 2%;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 50px;
+}
+.navbar ul li a{
+  color: azure;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar ul li a:hover{
+  background: #ff6e00;
+  border-radius: 10px;
+}
+.container .center{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 21%;
+  left: 30%;
+  transform: (-25%,-25%);
+  font-size: 25px;
+  margin-right: 150px;
+}
+.center{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: (-25%,-25%);
+  font-size: 25px;
+  margin-left: 50px;
+}
+.center h1{
+  text-align: center;
+  margin-right: 380px;
+}
+.center h3{
+  text-align: center;
+  margin-top: 3px;
+  margin-right: 385px;
+}
+.center h6{
+  text-align: center;
+  margin-top: 3px;
+  margin-right: 450px;
+}
+.submenu-1{
+  display: none;
+}
+.navbar ul li:hover .submenu-1{
+  display: block;
+  position: absolute;
+  background-color: rgba(10, 9, 15, 0.5);
+  font-size: 10px;
+  z-index: 999;
+}
+.navbar ul li:hover .submenu-1 ul li{
+  display: block;
+  width: 150px;
+  border-bottom: 1px dotted white;
+  text-align: left;
+}
+.navbar ul li:hover .submenu-1 ul li a:hover{
+  color: #ff6e00;
+  background-color: transparent;
+}
+.container-tarih{
+  background: url(images/tarih.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-tarih .center{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: (-25%,-25%);
+  font-size: 25px;
+  margin-left: 40px;
+}
+.cover{
+  margin-top: 10px;
+  width: 860px;
+  height: max-content;
+  float: left;
+  margin-left: 250px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 800px;
+  height: max-content;
+  float: left;
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+}
+.container-gezi{
+  background: url(images/gezi_banner.jpg);
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-size: 100% 100%;
+}
+.container-gezi .center{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: (-25%,-25%);
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.container-merkez{
+  background: url(images/merkez.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.container-cayırlı{
+  background: url(images/cayırlı.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.container-ilic{
+  background: url(images/ilic.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-kemah{
+  background: url(images/kemah.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-kemaliye{
+  background: url(images/kemaliye.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-otlukbeli{
+  background: url(images/otlukbeli.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-refahiye{
+  background: url(images/refahiye.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-tercan{
+  background: url(images/tercan.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-uzumlu{
+  background: url(images/uzumlu.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-yiyecek{
+  background: url(images/yiyecek.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: 100% 100%;
+}
+.container-konak{
+  background: url(images/yiyecek.jpg);
+  background-repeat: no-repeat;
+  height: 0vh;
+  background-size: 100% 100%;
+}
+.otel{
+  padding-left: 10px;
+}
+
