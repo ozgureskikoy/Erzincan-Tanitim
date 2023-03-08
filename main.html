@@ -3,7 +3,9 @@
 <head>
   <title>Erzincan</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="style.css">
+<script src="slider.js"></script>
 </head>
 <body>
 <div class="container">
@@ -12,34 +14,66 @@
       <h2>Erzincan</h2>
    </div>
       <ul>
-        <li><a href="main.html" >Ana Sayfa</a></li>
-        <li><a href="#İlçeler" >İlçeler</a>
+        <li><a href="main.html" class="one active">Ana Sayfa</a></li>
+        <li><a href="#İlçeler" class="two">İlçeler</a>
           <div class="submenu-1">
             <ul>
-              <li><a href="merkez.html">Merkez</a></li>
-              <li><a href="cayırlı.html">Çayırlı</a></li>
-              <li><a href="ilic.html">İliç</a></li>
-              <li><a href="kemah.html">Kemah</a></li>
-              <li><a href="kemaliye.html">Kemaliye</a></li>
-              <li><a href="otlukbeli.html">Otlukbeli</a></li>
-              <li><a href="refahiye.html">Refahiye</a></li>
-              <li><a href="tercan.html">Tercan</a></li>
-              <li><a href="uzumlu.html">Üzümlü</a></li>
+              
+              <li><a href="merkez.html" class="twoone ">Merkez</a></li>
+              <li><a href="cayırlı.html" class="twotwo">Çayırlı</a></li>
+              <li><a href="ilic.html" class="twothree" >İliç</a></li>
+              <li><a href="kemah.html" class="twofour">Kemah</a></li>
+              <li><a href="kemaliye.html" class="twofive">Kemaliye</a></li>
+              <li><a href="otlukbeli.html" class="twosix">Otlukbeli</a></li>
+              <li><a href="refahiye.html" class="twoseven">Refahiye</a></li>
+              <li><a href="tercan.html" class="twoeight">Tercan</a></li>
+              <li><a href="uzumlu.html" class="twonine">Üzümlü</a></li>
             </ul>
           </div>
+        </li>   
+        <li><a href="tarihçe.html" class="three">Tarihçe</a></li>
+        <li><a href="gezilecek_yerler.html" class="four">Gezilecek Yerler</a></li>
+        <li><a href="yiyecek.html" class="five">Yiyecekler</a></li>
+        <li><a href="konaklama.html" class="six">Konaklama</a></li> 
+        <li><a href="iletişim.html" class="seven">İletişim</a></li>
+        <li><a href="quiz.html" class="eight">Sorular</a></li>
+        <li> <div class="button"> <input type="checkbox" id="darkmode-toggle"/>
+          <label for="darkmode-toggle">
+          </div>
         </li>
-            
-        <li><a href="tarihçe.html" >Tarihçe</a></li>
-        <li><a href="gezilecek_yerler.html" >Gezilecek Yerler</a></li>
-        <li><a href="yiyecek.html">Yiyecekler</a></li>
-        <li><a href="konaklama.html" >Konaklama</a>
       </ul>
     </div>
-    <div class="center">
-      <h1>Erzincan'a Hoşgeldiniz</h1>
-      <h3>Anadolu'nun en eski kültür merkezlerinden biri olan Erzincan'ı tanıma yolculuğuna HOŞGELDİNİZ</h3>
+    
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/ekşisu.jpg" style="width:100%">
+      <div class="text">Ekşisu</div>
     </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/dumanlı.jpg" style="width:100%">
+      <div class="text">Dumanlı Yaylası</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/cayırlı.jpg" style="width:100%">
+      <div class="text">Merkez</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
 </div>
-
+  <script src="timer.js"></script>
 </body>
 </html>
